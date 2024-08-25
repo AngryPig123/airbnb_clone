@@ -1,6 +1,5 @@
 'use client'
 import {useToast} from "@/components/ui/use-toast";
-import {Button} from "@/components/ui/button";
 import {SignOutButton} from "@clerk/nextjs";
 
 export default function SignOutLink() {

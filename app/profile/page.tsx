@@ -1,4 +1,4 @@
-import {createProfileAction, fetchProfile, updateProfileAction, updateProfileImageAction} from "@/utils/action";
+import {fetchProfile, updateProfileAction, updateProfileImageAction} from "@/utils/action";
 import FormContainer from "@/components/form/FormContainer";
 import FormInput from "@/components/form/FormInput";
 import SubmitButton from "@/components/form/Button";

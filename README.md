@@ -5419,7 +5419,7 @@ import CategoriesInput from '@/components/form/CategoriesInput';
 import PriceInput from '@/components/form/PriceInput';
 import TextAreaInput from '@/components/form/TextAreaInput';
 import CountriesInput from '@/components/form/CountriesInput';
-import CounterInput from '@/components/form/CounterInput';
+import CounterInput from '@/components/form/CounterInput.tsx';
 import AmenitiesInput from '@/components/form/AmenitiesInput';
 import {SubmitButton} from '@/components/form/Buttons';
 import {redirect} from 'next/navigation';

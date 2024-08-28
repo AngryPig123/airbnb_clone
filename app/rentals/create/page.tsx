@@ -8,6 +8,7 @@ import TextAreaInput from "@/components/form/TextAreaInput";
 import CountriesInput from "@/components/form/CountriesInput";
 import ImageInput from "@/components/form/ImageInput";
 import CounterInput from "@/components/form/CounterInput";
+import AmenitiesInput from "@/components/form/AmenitiesInput";
 
 export default function CreatePropertyPage() {
 
@@ -56,12 +57,13 @@ export default function CreatePropertyPage() {
 
                         <h3 className="text-lg mt-8 mb-4 font-medium">Accommodation Details</h3>
 
-                        <CounterInput detail='test' defaultValue={3}/>
-                        <CounterInput detail='test' defaultValue={3}/>
-                        <CounterInput detail='test' defaultValue={3}/>
-                        <CounterInput detail='test' defaultValue={3}/>
-                        <CounterInput detail='test' defaultValue={3}/>
-                        <CounterInput detail='test' defaultValue={3}/>
+                        <CounterInput detail='Guests' defaultValue={0}/>
+                        <CounterInput detail='Bedrooms' defaultValue={0}/>
+                        <CounterInput detail='Beds' defaultValue={0}/>
+                        <CounterInput detail='Baths' defaultValue={0}/>
+
+                        <h3 className="text-lg mt-10 mb-6 font-medium">Amenities</h3>
+                        <AmenitiesInput/>
 
                         <SubmitButton
                             className='mt-12'
